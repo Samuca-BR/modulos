@@ -1,3 +1,4 @@
-var mensagem = function (nome){
-    return "Hi,"+nome+".Play genshin impact, this is amazing game"
-}
+var mensagem = function (mensagem1,nome,mensagem2){
+    return mensagem1 + nome + mensagem2;
+};
+module.exports=mensagem;
